@@ -1,0 +1,60 @@
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+header {
+  text-align: center;
+}
+
+label {
+  font-size: 1rem;
+}
+
+form {
+  background: rgba(27, 27, 50, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#improved label {
+  display: block;
+}
+
+#comments {
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#submit button {
+  color: whitesmoke;
+  width: 100%;
+  height: 30px;
+  background-color: #37af65;
+}
